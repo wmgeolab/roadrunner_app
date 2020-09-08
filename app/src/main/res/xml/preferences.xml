@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Logging">
+
+        <SwitchPreferenceCompat
+                android:key="preference_logging_units"
+                android:title="Units"
+                android:summary="Meters / Feet"
+                android:defaultValue="true" />
+
+        <!--TODO: inputType does not work with PreferenceFragmentCompat-->
+        <EditTextPreference
+                android:key="preference_logging_distance"
+                android:title="Logging Distance"
+                android:summary="Road distance to average acceleration."
+                android:dialogMessage="Recommended between 100 and 1000 meters."
+                android:inputType="number"
+                android:defaultValue="1000" />
+
+        <EditTextPreference
+                android:key="preference_logging_max_speed"
+                android:title="Max Speed"
+                android:summary="No logging above this speed."
+                android:dialogMessage="Recommended 80mph"
+                android:inputType="number"
+                android:defaultValue="80" />
+
+
+        <EditTextPreference
+                android:key="preference_logging_min_speed"
+                android:title="Min speed"
+                android:summary="No logging below this speed."
+                android:dialogMessage="Recommended 20mph"
+                android:inputType="number"
+                android:defaultValue="20" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Log File">
+
+        <SwitchPreferenceCompat
+                android:key="preference_filename_json"
+                android:title="Enable Esri JSON"
+                android:summary="Switch between geoJSON and Esri JSON."
+                android:defaultValue="true" />
+
+        <EditTextPreference
+                android:key="preference_filename_prefix"
+                android:title="Set File Prefix"
+                android:summary="Prefix for output filename"
+                android:dialogMessage="Filename will include prefix + date of logging."
+                android:defaultValue="AndroidIRI" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

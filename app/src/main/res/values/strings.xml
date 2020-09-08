@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RoadRunner</string>
+    <string name="login_button">Login</string>
+    <string name="welcome">Mango Map</string>
+    <string name="unknown_response">Known response</string>
+    <string name="signin_failed">Failed signin</string>
+    <string name="user_profile">Welcome to your profile page</string>
+    <string name="profile_title">User Profile</string>
+    <string name="user_name">Inducesmile</string>
+    <string name="logout">LOGOUT</string>
+    <string name="delete_user">DELETE USER</string>
+    <string name="sign_out_error">Failed to sign out</string>
+    <string name="user_deletion_error">Failed to delete user</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="user_location_permission_not_granted">Permission not granted</string>
+    <string name="user_location_permission_explanation">We need it</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoicm9hZHJ1bm5lcmNzNDIwIiwiYSI6ImNqd3R3cWpreDAwa2ozeXBhbnQ1Nmx2Y20ifQ._o5EAgLaUt8jnVMsBIYnLQ</string>
+    <string name="value_format">%1$.2f</string>
+    <string name="label_azimuth_string">Azmiuth:</string>
+    <string name="label_pitch_string">Pitch:</string>
+    <string name="label_roll_string">Roll:</string>
+    <string name="dialog_gps_setting">It looks like you don\'t have your GPS enabled. Would you like to enable it in Settings?
+    </string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

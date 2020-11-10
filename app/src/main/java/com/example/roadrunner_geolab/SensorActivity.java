@@ -136,7 +136,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
             postData();
         }
     };
-    private void postData() {
+    protected void postData() {
         try {
             URL url = new URL ("https://modelservice.cdsw.geo.sciclone.wm.edu/model");
             new sendHTMLTask().execute(url);
@@ -748,17 +748,17 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 
                         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST, url, postparams,
                                 (Response.Listener) response -> {
+
                                     //Success Callback
-                                    Log.d("WOO", "WOOO");
-                                    Toast.makeText(getApplicationContext(), "Data Pushed Successfully", Toast.LENGTH_LONG).show();
+                                    successCallback();
                                     //file.delete();
+
                                 },
                                 new Response.ErrorListener() {
                                     @Override
                                     public void onErrorResponse(VolleyError error) {
                                         //Failure Callback
-                                        Log.d("AHH", "AHHHHH");
-                                        Toast.makeText(getApplicationContext(), "Failure (" + error.networkResponse.statusCode + ")", Toast.LENGTH_LONG).show();
+                                        failureCallback(error);
                                     }
                                 }) {
                             /**
@@ -786,6 +786,16 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
                 //process message
         }
 
+    }
+
+    protected void failureCallback(VolleyError error) {
+        Log.d("AHH", "AHHHHH");
+        Toast.makeText(getApplicationContext(), "Failure (" + error.networkResponse.statusCode + ")", Toast.LENGTH_LONG).show();
+    }
+
+    protected void successCallback() {
+        Log.d("WOO", "WOOO");
+        Toast.makeText(getApplicationContext(), "Data Pushed Successfully", Toast.LENGTH_LONG).show();
     }
 
 }

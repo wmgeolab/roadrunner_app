@@ -26,6 +26,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -131,15 +132,18 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
     //On click listener to push files
     private View.OnClickListener pushFilesListener = new View.OnClickListener(){
         @Override
-        public void onClick(View v){
-            try {
-                URL url = new URL ("https://modelservice.cdsw.geo.sciclone.wm.edu/model");
-                new sendHTMLTask().execute(url);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        public void onClick(View v) {
+            postData();
         }
     };
+    protected void postData() {
+        try {
+            URL url = new URL ("https://modelservice.cdsw.geo.sciclone.wm.edu/model");
+            new sendHTMLTask().execute(url);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     // On click listener for toggle GPS logging.
     private View.OnClickListener toggleRecordingListener = new View.OnClickListener() {
@@ -744,15 +748,17 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 
                         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST, url, postparams,
                                 (Response.Listener) response -> {
+
                                     //Success Callback
-                                    Log.d("WOO", "WOOO");
+                                    successCallback();
                                     //file.delete();
+
                                 },
                                 new Response.ErrorListener() {
                                     @Override
                                     public void onErrorResponse(VolleyError error) {
                                         //Failure Callback
-                                        Log.d("AHH", "AHHHHH");
+                                        failureCallback(error);
                                     }
                                 }) {
                             /**
@@ -770,7 +776,9 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
                     }
                     }
 
-                } catch(Exception e){}
+                } catch(Exception e){
+                Log.v("PUSH", "error pushing: " + e.getMessage());
+            }
             return "Success!";
             }
             @Override
@@ -778,6 +786,16 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
                 //process message
         }
 
+    }
+
+    protected void failureCallback(VolleyError error) {
+        Log.d("AHH", "AHHHHH");
+        Toast.makeText(getApplicationContext(), "Failure (" + error.networkResponse.statusCode + ")", Toast.LENGTH_LONG).show();
+    }
+
+    protected void successCallback() {
+        Log.d("WOO", "WOOO");
+        Toast.makeText(getApplicationContext(), "Data Pushed Successfully", Toast.LENGTH_LONG).show();
     }
 
 }

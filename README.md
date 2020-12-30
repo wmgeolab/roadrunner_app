@@ -68,7 +68,7 @@ Much of the code for this project that calculates the roughness came from the
 open-source AndroidIRI by mebuie. Using their code allowed me to focus on 
 collecting data and connecting to the server to train the network rather than
 the math that goes into calculating the road roughness. Their original project 
-can be found here: https://github.com/mebuie/AndroidIRI
+can be found here: https://github.com/mebuie/
 
 ==============================================================================
 2-File and Function Descriptions

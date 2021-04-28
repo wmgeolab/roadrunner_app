@@ -8,9 +8,8 @@
 ******************************************************************************
 RoadRunner: Road Roughness Collection App
 
-By Eric Nubbe
-Email: enubbe@email.wm.edu
-Last Updated : May 2020
+By Eric Nubbe (enubbe@email.wm.edu) & Ethan Brewer (embrewer@email.wm.edu)
+Last Updated : April 2021
 ******************************************************************************
 
 -------------

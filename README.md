@@ -12,6 +12,8 @@ By Eric Nubbe (enubbe@email.wm.edu) & Ethan Brewer (embrewer@email.wm.edu)
 Last Updated : April 2021
 ******************************************************************************
 
+Data for publication, "Predicting Road Quality using High Resolution Satellite Imagery: A Transfer Learning Approach" is final_data_log.csv.
+
 -------------
 INDEX
 -------------

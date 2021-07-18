@@ -8,7 +8,8 @@
 ******************************************************************************
 Predicting road quality using high resolution satellite imagery: A transfer learning approach
 
-By Eric Nubbe (enubbe@email.wm.edu) & Ethan Brewer (embrewer@email.wm.edu)
+Ethan Brewer (embrewer@email.wm.edu)
+
 Last Updated : July 18, 2021
 ******************************************************************************
 
@@ -18,7 +19,7 @@ Python code for modeling road qualification is Road_Qualification.py.
 
 Contact Ethan Brewer if you desire original images.
 
-The remainder of README contains app information.
+The remainder of README contains app information written by Eric Nubbe (enubbe@email.wm.edu).
 
 -------------
 INDEX

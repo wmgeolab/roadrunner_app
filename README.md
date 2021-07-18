@@ -12,7 +12,13 @@ By Eric Nubbe (enubbe@email.wm.edu) & Ethan Brewer (embrewer@email.wm.edu)
 Last Updated : April 2021
 ******************************************************************************
 
-Data for publication, "Predicting Road Quality using High Resolution Satellite Imagery: A Transfer Learning Approach" is final_data_log.csv.
+Road data for publication, "Predicting road quality using high resolution satellite imagery: A transfer learning approach", is final_data_log.csv.
+
+Python code for modeling road qualification is Road_Qualification.py.
+
+Contact Ethan Brewer if you desire original images.
+
+The remainder of README contains app information.
 
 -------------
 INDEX

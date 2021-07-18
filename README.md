@@ -17,7 +17,7 @@ Road data for publication is final_data_log.csv.
 
 Python code for modeling road qualification is Road_Qualification.py.
 
-Contact Ethan Brewer if you desire original images.
+Contact Ethan Brewer if you desire original image crops.
 
 The remainder of README contains app information written by Eric Nubbe (enubbe@email.wm.edu).
 

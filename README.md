@@ -10,7 +10,7 @@ Predicting road quality using high resolution satellite imagery: A transfer lear
 
 Ethan Brewer (embrewer@email.wm.edu)
 
-Last Updated : July 18, 2021
+Last Updated : August 5, 2021
 ******************************************************************************
 
 Road data from app collection in Virginia is final_data_log.csv.

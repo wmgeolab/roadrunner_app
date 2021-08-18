@@ -15,7 +15,7 @@ Road data from app collection in Virginia is final_data_log.csv.
 
 Python code for modeling road qualification is Road_Qualification.py.
 
-Contact Ethan Brewer if you desire original image crops.
+Contact Ethan Brewer if you desire original image crops or anything else.
 
 The remainder of README contains app information written by Eric Nubbe (enubbe@email.wm.edu).
 

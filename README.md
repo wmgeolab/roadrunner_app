@@ -9,8 +9,6 @@
 Predicting road quality using high resolution satellite imagery: A transfer learning approach (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253370)
 
 Ethan Brewer (embrewer@email.wm.edu)
-
-Last Updated : August 5, 2021
 ******************************************************************************
 
 Road data from app collection in Virginia is final_data_log.csv.

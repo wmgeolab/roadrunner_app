@@ -11,11 +11,15 @@
 Ethan Brewer (embrewer@email.wm.edu)
 ******************************************************************************
 
-Road data from app collection in Virginia is final_data_log.csv.
+Road data from app collection in Virginia is "final_data_log.csv".
 
-Python code for modeling road qualification is Road_Qualification.py.
+Code for modeling road qualification is "Road_Qualification.py".
 
-Contact Ethan Brewer if you desire the original image crops or preprocessing code.
+Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder.
+
+Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py".
+
+Contact Ethan Brewer with any questions.
 
 The remainder of README contains app information written by Eric Nubbe (enubbe@email.wm.edu).
 

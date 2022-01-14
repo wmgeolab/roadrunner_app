@@ -11,7 +11,7 @@
 Ethan Brewer (embrewer@email.wm.edu)
 ******************************************************************************
 
-Road data from app collection in Virginia is "final_data_log.csv".
+Raw data from app collection on roads in Virginia is "final_data_log.csv".
 
 Code for modeling road qualification is "Road_Qualification.py".
 

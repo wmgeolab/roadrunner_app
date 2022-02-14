@@ -11,7 +11,7 @@
 Ethan Brewer (embrewer@wm.edu)
 ******************************************************************************
 
-Raw data from app collection on roads in Virginia is "final_data_log.csv". Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder. Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py". The exact image crops and labels used in the paper can be found [here](https://geolab.wm.edu/data/).
+Raw data from app collection on roads in Virginia is "final_data_log.csv". Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py". Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder. The exact image crops and labels used in the paper can be found [here](https://geolab.wm.edu/data/).
 
 Code for modeling road qualification is "Road_Qualification.py".
 

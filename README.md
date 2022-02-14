@@ -8,7 +8,7 @@
 ******************************************************************************
 [Predicting road quality using high resolution satellite imagery: A transfer learning approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253370)
 
-Ethan Brewer (embrewer@email.wm.edu)
+Ethan Brewer (embrewer@wm.edu)
 ******************************************************************************
 
 Raw data from app collection on roads in Virginia is "final_data_log.csv". Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder. Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py". The exact image crops and labels used in the paper can be found [here](https://geolab.wm.edu/data/).
@@ -17,7 +17,7 @@ Code for modeling road qualification is "Road_Qualification.py".
 
 Contact Ethan Brewer with any questions.
 
-The remainder of README contains information on the road roughness collection app, written by Eric Nubbe (enubbe@email.wm.edu).
+The remainder of README contains information on the road roughness collection app, written by Eric Nubbe.
 
 -------------
 INDEX

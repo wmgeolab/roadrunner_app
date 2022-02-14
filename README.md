@@ -15,7 +15,7 @@ Raw data from app collection on roads in Virginia is "final_data_log.csv". Backe
 
 Code for modeling road qualification is "Road_Qualification.py".
 
-Contact Ethan Brewer if you desire the image crops of the Nigerian roads used in the study or with any questions.
+Contact Ethan Brewer if the image crops of the Nigerian roads are desired, or with any other questions.
 
 The remainder of README contains information on the road roughness collection app, written by Eric Nubbe.
 

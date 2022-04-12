@@ -15,7 +15,7 @@ Raw data csv from app collection on roads in Virginia is in "final_log.zip". Bac
 
 Code for modeling road qualification is "Road_Qualification.py".
 
-Contact Ethan Brewer if the image crops of the Nigerian roads or the saved models are desired, or with any other questions.
+Contact Ethan Brewer if the image crops of the Nigerian roads or the saved TensorFlow models are desired, or with any other questions.
 
 The remainder of README contains information on the road roughness collection app, written by Eric Nubbe.
 

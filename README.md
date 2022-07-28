@@ -12,7 +12,7 @@ Paper: [Predicting road quality using high resolution satellite imagery: A trans
 
 The Android app's package is "app-release.apk".
 
-Raw data csv from app collection on roads in Virginia is in "final_log.zip". Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py". Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder. The image crops and labels used in the paper can be found [here](https://geolab.wm.edu/data/).
+Backend code for funneling data from the app into the SQL database is in "roadrunner_backend.py". Code for pocessing the database data and cropping the relevant images from Virginia Base Map uploads is contained in the "roadrunner_preprocessing" folder. The image crops and labels used in the paper can be found [here](https://geolab.wm.edu/data/).
 
 Code for modeling road qualification is "Road_Qualification.py".
 

@@ -8,7 +8,7 @@
 ******************************************************************************
 [Predicting road quality using high resolution satellite imagery: A transfer learning approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253370)
 
-Ethan Brewer (embrewer@wm.edu)
+Ethan Brewer (EthanMichaelBrewer@gmail.com)
 ******************************************************************************
 
 The Android app's package is "app-release.apk".

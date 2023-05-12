@@ -18,7 +18,7 @@ Code for modeling road qualification is "Road_Qualification.py".
 
 Contact Ethan Brewer if the image crops of the Nigerian roads or the saved TensorFlow models are desired, or with any other questions.
 
-The remainder of README contains information on the road roughness collection app, written by Eric Nubbe.
+The remainder of README contains information written by Eric Nubbe on the road roughness collection app.
 
 -------------
 INDEX

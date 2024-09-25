@@ -16,7 +16,7 @@ Backend code for funneling data from the app into the SQL database is in "roadru
 
 Code for modeling road qualification is "Road_Qualification.py".
 
-Contact Ethan Brewer if the image crops of the Nigerian roads or the saved TensorFlow models are desired, or with any other questions.
+Contact Ethan Brewer with any questions.
 
 The remainder of README contains information written by Eric Nubbe on the road roughness collection app.
 
